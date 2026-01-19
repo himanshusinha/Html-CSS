@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <!-- inline styles -->
       <!-- <h1 style="color: blue">📘 The Code Magazine</h1> -->
       <h1>📘 The Code Magazine</h1>
@@ -24,6 +24,7 @@
         <a href="#">Flexbox</a>
         <a href="#">CSS Grid</a>
       </nav>
+      <!--<p id="author">Test paragraph</p>-->
     </header>
     <article>
       <header>
@@ -75,7 +76,7 @@
         There are countless reasons for learning the fundamental language of the
         web. Here are 5 of them:
       </p>
-      <ul>
+      <ul class="related">
         <li>To be able to use the fundamental web dev language</li>
         <li>
           To hand-craft beautiful websites instead of relying on tools like
@@ -89,25 +90,27 @@
     </article>
     <aside>
       <h4>Related posts</h4>
-      <ul>
+      <ul class="related">
         <li>
           <img src="related-1.jpg" alt="Person programming" width="75" />
           <a href="">How to Learn Web Development</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img src="related-2.jpg" alt="Person programming" width="75" />
           <a href="#">The Unknown Power of CSS</a>
-          <p>By Jim Dhillon</p>
+          <p class="related-author">By Jim Dhillon</p>
         </li>
         <li>
           <img src="related-3.jpg" alt="Person programming" width="75" />
           <a href="#">JavaScript code on a screen</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine</p>
+    </footer>
   </body>
 </html>
