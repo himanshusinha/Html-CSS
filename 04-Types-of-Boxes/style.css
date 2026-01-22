@@ -17,6 +17,7 @@ body {
   padding-right: 40px; */
   /* top bottom 20px left right 40px */
   padding: 20px 40px;
+  /* height: 80px; */
 }
 .post-header {
   margin-bottom: 40px;
@@ -49,10 +50,12 @@ p {
   font-size: 20px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  display: inline;
 }
 li:last-child {
   margin-bottom: 0;
@@ -159,37 +162,7 @@ article {
   height: auto;
 }
 
-/* Psuedo elements */
-
-h1::first-letter {
-  font-weight: normal;
-}
-p::first-line {
-  color: #444;
-}
-/* Adjacent selector */
-h3 + p::first-line {
-  color: #444;
-}
-.container {
-  width: 900px;
-  /*   margin-left: auto;
-  margin-right: auto; */
-  margin: 0 auto;
-  position: relative;
-}
-h2 {
-  position: relative;
-}
-
-h2::after {
-  content: "TOP";
-  background-color: #ffe70e;
-  display: inline-block;
-  padding: 5px 10px;
-  font-size: 16px;
-  font-weight: bold;
-  position: absolute;
-  top: -10px;
-  right: -25px -10px;
+nav a:link {
+  margin-right: 30px;
+  display: inline;
 }
