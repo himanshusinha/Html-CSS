@@ -6,11 +6,18 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
 }
 h1 {
   font-size: 26px;
   text-transform: uppercase;
   font-size: italic;
+  color: #1098ad;
 }
 
 h2 {
@@ -40,3 +47,74 @@ footer p {
 /* article header p {
   font-style: italic;
 } */
+
+/* # for id selector single and unique and 
+. for class selector mutliple elements */
+
+#author {
+  font-size: 18px;
+  font-style: italic;
+}
+#copyright {
+  font-size: 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* ul {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  background-color: #f7f7f7;
+}
+/* body {
+  background-color: blue;
+} */
+
+/* Psuedo classes */
+/* li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  color: red;
+}
+li:nth-child(odd) {
+  color: green;
+}
+li:nth-child(even) {
+  color: blue;
+} */
+/* article p:last-child {
+  color: red;
+} */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* LVHA */
