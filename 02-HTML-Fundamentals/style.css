@@ -1,0 +1,151 @@
+* {
+  /* border-top: solid 5px #1098ad; */
+}
+
+body {
+  color: #444;
+  font-family: sans-serif;
+  border-top: solid 5px #1098ad;
+}
+
+h1,
+h2,
+h3,
+h3,
+p,
+li {
+  color: #444;
+}
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  color: rgb(16, 152, 173);
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+/* footer p {
+  font-size: 16px;
+}
+article header p {
+  font-style: italic;
+}
+ */
+
+/* CLASS & ID SELECTORS */
+
+/* CLASS SELECTOR */
+#author {
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+/* ID SELECTORS */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul li {
+  list-style: none;
+} */
+
+.related {
+  list-style: none;
+}
+.main-header {
+  background-color: #f7f7f7;
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+/* PSUEDO CLASSES */
+
+li:first-child {
+  font-weight: bold;
+  color: yellow;
+}
+
+li:last-child {
+  color: green;
+}
+li:nth-child(odd) {
+  color: red;
+}
+
+article p:last-child {
+  color: red;
+}
+
+/* STYLING LINKS */
+
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #777; */
+  color: #1098ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+/* LVHA */
+
+/* RESOLVING CONFLICTS */
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+}
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+nav {
+  font-size: 18px;
+}
